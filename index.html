@@ -9,11 +9,13 @@
 <body>
   <h1>NYC Air Quality Data</h1>
 
+  <div><select></select></div>
 <svg width="960" height="600"></svg>
-<div><select></select></div>
+
 
 <p>The above shows NY air quality data sourced from <a href="https://opendata.cityofnewyork.us/">NYC Open Data.</a> 
   The date range is 2005 - 2013. Where there is more than one datapoint available for a given bar (e.g. multiple years of data), the average is taken. 
+  This is partly due to the poor data quality - many dates are in string format
   Click on the boroughs to drill down to their neighbourhoods.</p>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="index.js"></script>

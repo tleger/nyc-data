@@ -83,6 +83,8 @@ d3.csv("Air_Quality.csv", function (d) {
             .attr("width", x.bandwidth())
             .attr("height", function (d) { return height - y(d.value.total); });
 
+        debugger;
+
         g.selectAll('#ylabel')
             .text(dataset.filter(function(d) {return d.name == selectValue})[0].Measure)
     };

@@ -34,7 +34,7 @@ svg {
 select {
   background-color: white;
   height: 24px;
-  border: 1px solid #eee;
+  border: 0.5px solid #eee;
   float:right;
   font-family: "Open Sans";
 }
